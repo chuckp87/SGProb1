@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="app">
+<head>
+    <title></title>
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/Chart.js"></script>
+    <script src="Scripts/angular-chart.min.js"></script>
+    <script src="Scripts/ui-listView.js"></script>
+   <script src="Scripts/script.js"></script>
+    <link href="Styles.css" rel="stylesheet" />
+</head>
+<body ng-controller="BarChartCtrl">
+    <table>
+        <tr>
+            <td colspan="2" class="header">
+                <h3>Life Data Chart</h3>
+            </td>
+        </tr>
+        <tr>
+            <td class="leftMenu">
+                <div class="leftMenuDiv">
+                    <h4>Number of People In Sample:</h4>
+                    <div class="yearsListItem">{{numPeopleInSample}}</div>
+                </div>
+                <div class="leftMenuDiv">
+                    <h4>Highest Yearly Total:</h4>
+                    <div class="yearsListItem">{{maxYearValue}}</div>
+                </div>
+                <br/>
+                <div class="leftMenuDiv">
+                    <h4>Years With Highest Total:</h4>
+                    <div id="HighestLifeCountList" ui-list-view="item in highestLifeCountList">
+                        <div class="yearsListItem">{{ item }}</div>
+                    </div>
+                </div>
+            </td>
+            <td class="mainContent">
+                <canvas id="bar" class="chart chart-bar"
+                        chart-data="data" chart-labels="labels" chart-series="series">
+                </canvas>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="footer">
+                {{ error }}
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

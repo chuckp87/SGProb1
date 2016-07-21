@@ -1,0 +1,6 @@
+C:\CSharpCodeSamples\PracticeCode\TestWebApp3\TestWebApp3\bin\TestWebApp3.dll.config
+C:\CSharpCodeSamples\PracticeCode\TestWebApp3\TestWebApp3\bin\TestWebApp3.dll
+C:\CSharpCodeSamples\PracticeCode\TestWebApp3\TestWebApp3\bin\TestWebApp3.pdb
+C:\CSharpCodeSamples\PracticeCode\TestWebApp3\TestWebApp3\obj\Debug\TestWebApp3.dll
+C:\CSharpCodeSamples\PracticeCode\TestWebApp3\TestWebApp3\obj\Debug\TestWebApp3.pdb
+C:\CSharpCodeSamples\PracticeCode\TestWebApp3\TestWebApp3\obj\Debug\TestWebApp3.csprojResolveAssemblyReference.cache

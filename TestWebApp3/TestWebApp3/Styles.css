@@ -1,0 +1,45 @@
+﻿.header{
+    width: 1000px;
+    height: 50px;
+    text-align: center;
+    background-color: #BDBDBD;
+}
+
+.leftMenuDiv {
+    text-align: center;
+    height: 100px;
+}
+
+.footer{
+    text-align: center;
+    background-color: #BDBDBD;
+    color: red;
+    height: 30px;
+}
+
+#HighestLifeCountList{
+    width: 100px;
+    height: 100px;
+    text-align:center;
+    margin-left: 25px;
+}
+
+.yearsListItem {
+    text-align:center;
+    font-family:Arial;
+    font-size:medium;
+}
+
+.leftMenu{
+    height: 500px;
+    background-color: #D8D8D8;
+    width: 160px;
+    margin-left:20px;
+}
+
+.mainContent{
+    height: 500px;
+    background-color: #E6E6E6;
+    width: 840px;
+}
+
